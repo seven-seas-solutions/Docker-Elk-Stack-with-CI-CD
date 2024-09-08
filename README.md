@@ -72,6 +72,10 @@ The following open-source licenses apply to the project:
 
 Please ensure you comply with the licenses of all included software when using this project commercially. The Elastic License has specific limitations on use and distribution.
 
+## Additional Resources
+For more information on how to use elk, visit their official website: https://www.elastic.co/ 
+and YouTube channel: https://www.youtube.com/@Elastic/videos
+
 ## Contributing
 
 Feel free to submit pull requests to improve this project.
