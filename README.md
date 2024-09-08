@@ -57,6 +57,8 @@ The following open-source licenses apply to the project:
 - Docker Compose configuration - You are free to use and modify this configuration under the MIT License.
 
 ## Project Structure
+
+   ```bash
 .
 ├── docker-compose.yml
 ├── logstash
@@ -64,6 +66,7 @@ The following open-source licenses apply to the project:
 │   └── pipeline
 │       └── logstash.conf
 └── README.md
+```
 
 ## Legal Disclaimer
 
