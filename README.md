@@ -29,35 +29,52 @@ The project demonstrates the setup of an ELK stack using Docker containers. The 
    ```bash
    git clone https://github.com/seven-seas-solutions/elk-stack.git
    cd elk-stack
+
 Start the ELK Stack:
 
-bash
-Copy code
+   ```bash
 docker-compose up -d
+```
 Access Kibana via http://localhost:5601.
 
 Stop the services:
 
-bash
-Copy code
+   ```bash
 docker-compose down
-CI/CD Pipeline
+```
+
+## CI/CD Pipeline
+
 A GitHub Actions pipeline is included to automatically build and test the Docker images whenever changes are pushed to the repository.
 
-License Information
+## License Information
+
 The following open-source licenses apply to the project:
 
-Elasticsearch - Licensed under the Elastic License.
-Logstash - Licensed under the Apache License 2.0.
-Kibana - Licensed under the Elastic License.
-Docker Compose configuration - You are free to use and modify this configuration under the MIT License.
-Legal Disclaimer
+- Elasticsearch - Licensed under the Elastic License.
+- Logstash - Licensed under the Apache License 2.0.
+- Kibana - Licensed under the Elastic License.
+- Docker Compose configuration - You are free to use and modify this configuration under the MIT License.
+
+## Project Structure
+.
+├── docker-compose.yml
+├── logstash
+│   ├── Dockerfile
+│   └── pipeline
+│       └── logstash.conf
+└── README.md
+
+## Legal Disclaimer
+
 Please ensure you comply with the licenses of all included software when using this project commercially. The Elastic License has specific limitations on use and distribution.
 
-Contributing
+## Contributing
+
 Feel free to submit pull requests to improve this project.
 
-Contact
+## Contact
+
 For professional services related to the setup, deployment, or maintenance of ELK stacks, please contact Seven Seas Solutions.
 
 www.sevenseassolutions.co.uk
